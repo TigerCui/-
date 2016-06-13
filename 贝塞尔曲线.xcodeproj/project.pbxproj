@@ -15,6 +15,7 @@
 		01DEAD691D0D4ED7003FB043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DEAD671D0D4ED7003FB043 /* LaunchScreen.storyboard */; };
 		01DEAD741D0D4ED7003FB043 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DEAD731D0D4ED7003FB043 /* _____Tests.m */; };
 		01DEAD7F1D0D4ED7003FB043 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DEAD7E1D0D4ED7003FB043 /* _____UITests.m */; };
+		01DEAD8E1D0D576D003FB043 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DEAD8D1D0D576D003FB043 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		01DEAD7A1D0D4ED7003FB043 /* 贝塞尔曲线UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贝塞尔曲线UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DEAD7E1D0D4ED7003FB043 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		01DEAD801D0D4ED7003FB043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DEAD8C1D0D576D003FB043 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		01DEAD8D1D0D576D003FB043 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				01DEAD5D1D0D4ED6003FB043 /* AppDelegate.m */,
 				01DEAD5F1D0D4ED6003FB043 /* ViewController.h */,
 				01DEAD601D0D4ED7003FB043 /* ViewController.m */,
+				01DEAD8C1D0D576D003FB043 /* Circle.h */,
+				01DEAD8D1D0D576D003FB043 /* Circle.m */,
 				01DEAD621D0D4ED7003FB043 /* Main.storyboard */,
 				01DEAD651D0D4ED7003FB043 /* Assets.xcassets */,
 				01DEAD671D0D4ED7003FB043 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DEAD611D0D4ED7003FB043 /* ViewController.m in Sources */,
+				01DEAD8E1D0D576D003FB043 /* Circle.m in Sources */,
 				01DEAD5E1D0D4ED6003FB043 /* AppDelegate.m in Sources */,
 				01DEAD5B1D0D4ED6003FB043 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				01DEAD851D0D4ED7003FB043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DEAD861D0D4ED7003FB043 /* Build configuration list for PBXNativeTarget "贝塞尔曲线Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				01DEAD881D0D4ED7003FB043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DEAD891D0D4ED7003FB043 /* Build configuration list for PBXNativeTarget "贝塞尔曲线UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				01DEAD8B1D0D4ED7003FB043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

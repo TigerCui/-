@@ -7,16 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "Circle.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong) NSTimer *timer;
+@property (nonatomic,weak) Circle *v;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Circle *circle = [[Circle alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width)];
+    circle.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:circle];
+    circle.lineWidth = self.view.frame.size.width/2;
+    circle.percentColor = [UIColor redColor];
+    circle.underColor = [UIColor yellowColor];
+    circle.rate = 0.01;
+    [circle setupPercent:0.5];
 }
 
 - (void)didReceiveMemoryWarning {
